@@ -1,0 +1,26 @@
+@import url(//db.onlinewebfonts.com/c/4d48ce12aa61776288d8361ba748c531?family=PhosphateRRSolid);
+
+@font-face {font-family: "PhosphateRRSolid"; src: url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.eot"); src: url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.woff") format("woff"), url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4d48ce12aa61776288d8361ba748c531.svg#PhosphateRRSolid") format("svg"); }
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+.footer-link-wrapper > .footer-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 25%;
+    color: #fff;
+    background-color: #36383f;
+    border: 1px solid #676767;
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+
+.footer-link-wrapper > .footer-link > .footer-link-capital {
+    font-family: "PhosphateRRSolid";
+    font-size: 21px;
+    display: inline-block;
+    color: #fff;
+}

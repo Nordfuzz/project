@@ -1,0 +1,82 @@
+.page-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #41444e;
+    box-shadow: inset -600px -100px 250px 0px #191a1d;
+    justify-content: space-between;
+}
+
+.page-container > .left-content {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.page-container > .left-content > .first-paragraph {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+	font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.page-container > .left-content > .second-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Lato', sans-serif;
+	font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.page-container > .left-content > .btns-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 2px;
+}
+
+/* RIGHT-CONTENT */
+
+.page-container > .right-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.page-container > .right-content > .img-header {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.page-container > .right-content > .img-header > .img-header-blue {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #38aced;
+}
+
+.page-container > .right-content > .right-img {
+    align-self: flex-end;
+    width: 420px;
+    height: auto;
+    margin-top: 0px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
